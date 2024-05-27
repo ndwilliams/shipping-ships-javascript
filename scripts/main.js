@@ -1,3 +1,4 @@
+import { CargoShipsList } from "./CargoShips.js"
 import { DockList } from "./Docks.js"
 import { ShipHaulerList } from "./ShipHaulers.js"
 
@@ -15,6 +16,12 @@ const appplicationHTML = `
     <section class="detail--column list detail_cities">
     <h2>Ship Haulers</h2>
     ${ShipHaulerList()}
+    </section>
+</article>
+<article class="details">
+    <section class="detail--column list detail_cities">
+    <h2>Cargo Ships</h2>
+    ${CargoShipsList()}
     </section>
 </article>
 `
