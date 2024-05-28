@@ -33,8 +33,8 @@ export const ShipHaulerList = () => {
 	for (const hauler of haulingShips) {
 		haulingShipsHTML += `<li
                             data-type="hauler"
-                            data-id=${hauler.id}
-                            >${hauler.name}</li>`
+                            data-id=${hauler.id}>
+                            ${hauler.name}</li>`
 	}
 
 	haulingShipsHTML += "</ul>"
