@@ -27,13 +27,19 @@ const database = {
 }
 
 export const getDocks = () => {
-	return database.docks.map((dock) => ({ ...dock }))
+	return database.docks
+		.map((dock) => ({ ...dock }))
+		.sort((a, b) => a.location.localeCompare(b.location))
 }
 
 export const getHaulers = () => {
-	return database.haulers.map((hauler) => ({ ...hauler }))
+	return database.haulers
+		.map((hauler) => ({ ...hauler }))
+		.sort((a, b) => a.name.localeCompare(b.name))
 }
 
 export const getCargoShips = () => {
-	return database.cargoShips.map((cargoShip) => ({ ...cargoShip }))
+	return database.cargoShips
+		.map((cargoShip) => ({ ...cargoShip }))
+		.sort((a, b) => a.name.localeCompare(b.name))
 }
