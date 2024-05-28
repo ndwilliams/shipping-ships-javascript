@@ -9,7 +9,7 @@ const database = {
 		{ id: 1, name: "Pioneering Spirit", dockId: 1 },
 		{ id: 2, name: "Boat McBoatface", dockId: 2 },
 		{ id: 3, name: "Seawise Giant", dockId: 3 },
-		{ id: 4, name: "I'm on a Boat", dockId: 4 },
+		{ id: 4, name: "I'm on a Boat", dockId: 1 },
 		{ id: 5, name: "HMS Pinafore", dockId: 1 },
 		{ id: 6, name: "SS Willy", dockId: 2 },
 	],
