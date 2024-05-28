@@ -1,15 +1,24 @@
 .details {
 	display: flex;
-	justify-content: space-evenly;
+	flex-basis: 25%;
+	align-items: center;
 }
 
 .detail--column {
-	flex-basis: 24%;
+	display: flex;
 	margin: 0 2rem;
 	padding: 1rem;
 	border: 1px dotted goldenrod;
+	height: fit-content;
+	align-items: center;
 }
 
-.assignments {
-	padding: 1rem 5rem;
+.list-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
 }
